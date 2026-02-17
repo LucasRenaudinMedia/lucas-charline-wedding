@@ -215,6 +215,71 @@ a{color:inherit}
   line-height:1.7;
 }
 
+.info-text{
+  margin:0;
+  color:var(--muted);
+  line-height:1.7;
+}
+
+.btn-inline{
+  display:inline-block;
+  margin-top:16px;
+}
+
+.text-link{
+  display:inline-block;
+  margin-bottom:14px;
+  color:var(--muted);
+  text-decoration:none;
+  font-weight:600;
+}
+
+.text-link:hover{
+  color:var(--text);
+}
+
+.section-top{
+  min-height:100vh;
+}
+
+.lodging-grid{
+  margin-top:20px;
+  display:grid;
+  grid-template-columns:repeat(3, minmax(0, 1fr));
+  gap:14px;
+}
+
+.lodging-card{
+  background:var(--beige);
+  border-radius:18px;
+  padding:16px;
+}
+
+.lodging-title{
+  margin:0 0 10px;
+  font-family:"Playfair Display", "Cormorant Garamond", ui-serif, Georgia, "Times New Roman", Times, serif;
+  font-size:1.4rem;
+}
+
+.lodging-list{
+  margin:0;
+  padding-left:18px;
+  color:var(--muted);
+  line-height:1.7;
+}
+
+.lodging-meta{
+  margin:0 0 8px;
+  color:var(--text);
+  line-height:1.5;
+}
+
+.lodging-warning{
+  margin:0 0 12px;
+  color:#d10000;
+  line-height:1.5;
+}
+
 .footer{
   text-align:center;
   font-size:.85rem;
@@ -229,4 +294,5 @@ a{color:inherit}
   .subtitle{font-size:1.2rem}
   .timeline li{grid-template-columns:70px 1fr}
   .practical-row{flex-direction:column; align-items:flex-start}
+  .lodging-grid{grid-template-columns:1fr}
 }
